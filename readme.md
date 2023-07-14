@@ -8,6 +8,6 @@ This is a repository with all the projects assigned by the course [React the com
 
 2. [Expenses management](https://github.com/FernandoGM15/ReactCourse/tree/main/cost%20control) - [demo](https://teal-kashata-875eab.netlify.app/)
 
-2. [Crypto trader](https://github.com/FernandoGM15/ReactCourse/tree/main/cryptos) - [demo](https://64b1c5f9ee9bac1ef6700452--dulcet-dragon-033668.netlify.app/)
+3. [Crypto trader](https://github.com/FernandoGM15/ReactCourse/tree/main/cryptos) - [demo](https://64b1c5f9ee9bac1ef6700452--dulcet-dragon-033668.netlify.app/)
 
 
