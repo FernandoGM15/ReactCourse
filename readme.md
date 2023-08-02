@@ -10,4 +10,7 @@ This is a repository with all the projects assigned by the course [React the com
 
 3. [Crypto trader](https://github.com/FernandoGM15/ReactCourse/tree/main/cryptos) - [demo](https://64b1c5f9ee9bac1ef6700452--dulcet-dragon-033668.netlify.app/)
 
+4. [CRM](https://github.com/FernandoGM15/ReactCourse/tree/main/crm-react)
+
+
 
