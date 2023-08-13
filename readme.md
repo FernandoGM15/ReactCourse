@@ -12,7 +12,6 @@ This is a repository with all the projects assigned by the course [React the com
 
 4. [CRM](https://github.com/FernandoGM15/ReactCourse/tree/main/crm-react)
 
-5. [GuitarLA](https://github.com/FernandoGM15/ReactCourse/tree/main/guitar-la)
-  - [GuitarLA-Strapi](https://github.com/FernandoGM15/ReactCourse/tree/main/guitar-la/guitarla-strapi)
+5. [GuitarLA Strapi](https://github.com/FernandoGM15/ReactCourse/tree/main/guitarla-strapi)
 
-
+6. [GuitarLA Remix run](https://github.com/FernandoGM15/ReactCourse/tree/main/guitarla-remix)
