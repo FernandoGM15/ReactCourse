@@ -1,8 +1,10 @@
 import "./globals.css";
-import 'normalize.css'
+import "normalize.css";
 
 import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
+import Header from "./components/header/header";
+import Footer from "./components/footer/footer";
 
 /** @description Metadata for the SEO */
 export const metadata: Metadata = {
@@ -20,7 +22,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={outfit.className}>{children}</body>
+      <body className={outfit.className}>
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
