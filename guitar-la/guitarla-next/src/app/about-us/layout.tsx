@@ -1,8 +1,5 @@
+import { ParentPropsI } from "@/interfaces/parent-props.interfaces";
 import { Metadata } from "next";
-
-interface LayoutPropsI {
-  children: React.ReactNode;
-}
 
 /** @description Metadata for the SEO */
 export const metadata: Metadata = {
@@ -10,10 +7,9 @@ export const metadata: Metadata = {
   description: "About us, GuitarLA, music store",
 };
 
-const AboutUsLayout = ({ children }: LayoutPropsI) => {
+const AboutUsLayout = ({ children }: ParentPropsI) => {
   return (
     <>
-      <h1>From About us layout</h1>
       {children}
     </>
   );
