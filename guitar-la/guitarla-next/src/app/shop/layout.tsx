@@ -8,9 +8,10 @@ export const metadata: Metadata = {
 
 const ShopLayout = ({ children }: ParentPropsI) => {
   return (
-    <>
+    <main className="container">
+      <h1 className="heading">Our collection</h1>
       {children}
-    </>
+    </main>
   );
 };
 export default ShopLayout;

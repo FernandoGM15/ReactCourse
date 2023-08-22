@@ -15,16 +15,3 @@ This is a repository with all the projects assigned by the course [React the com
 5. [GuitarLA Strapi](https://github.com/FernandoGM15/ReactCourse/tree/main/guitar-la/guitarla-strapi)
 
 6. [GuitarLA Remix run](https://github.com/FernandoGM15/ReactCourse/tree/main/guitar-la/guitarla-remix)
-
-# Next.js
-## What is?
-- Is a framework for react to create apps and sites.
-- Has many util features to make apps with great performance, SEO and easy to configure.
-- It allows to run javascript code in the server as well the client side.
-- Supports server side rendering (SSR) and static site generation (SSG).
-
-## Advantages
-- Is doesn't requires any configuration.
-- Great performance and SEO optimization.
-- Routing included.
-- Build it functions to get API's datas as getServerSideProps and getStaticProps.

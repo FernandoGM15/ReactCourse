@@ -1,34 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js
 
-## Getting Started
+## What is?
 
-First, run the development server:
+- Is a framework for react to create apps and sites.
+- Has many util features to make apps with great performance, SEO and easy to configure.
+- It allows to run javascript code in the server as well the client side.
+- Supports server side rendering (SSR) and static site generation (SSG).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Advantages
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Is doesn't requires any configuration.
+- Great performance and SEO optimization.
+- Routing included.
+- Build it functions to get API's datas as getServerSideProps and getStaticProps.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## How to get data
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- getServerSideProps - The data is obtained in each request (Server Side Rendering - SSR).
+- getStaticProps - Obtain the data when the build is created (Static Side Generation - SSG).
+- getStaticPaths - Get the pages list that will be created when the build is created (Static Side Generation).
 
-## Learn More
+## When to use serverSideProps or StaticProps?
+- Use serverSideProps when the info is in continuos change, or when the page is updated in a short time.
+- Use staticProps when the info doesn't change in each request. 
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
