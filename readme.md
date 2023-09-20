@@ -15,3 +15,5 @@ This is a repository with all the projects assigned by the course [React the com
 5. [GuitarLA Strapi](https://github.com/FernandoGM15/ReactCourse/tree/main/guitar-la/guitarla-strapi)
 
 6. [GuitarLA Remix run](https://github.com/FernandoGM15/ReactCourse/tree/main/guitar-la/guitarla-remix)
+
+7. [Insurance Quoter](https://github.com/FernandoGM15/ReactCourse/tree/main/insurance-quoter) - [demo](https://650b79667b76cc669d74ebac--grand-starlight-b515f0.netlify.app/)
