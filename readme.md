@@ -21,3 +21,5 @@ This is a repository with all the projects assigned by the course [React the com
 8. [Weather app](https://github.com/FernandoGM15/ReactCourse/tree/main/weather-app) - [demo](https://650ba1db3e416678f0c9cec0--magenta-stardust-62a34d.netlify.app/)
 
 9. [News app](https://github.com/FernandoGM15/ReactCourse/tree/main/news-app)
+
+10. [Cocktails searcher](https://github.com/FernandoGM15/ReactCourse/tree/main/drink-searcher) - [demo](https://6512fdd996920002d0c9e768--deluxe-brigadeiros-f40324.netlify.app/)
