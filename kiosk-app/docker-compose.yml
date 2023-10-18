@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: Lufegamo_15 
+      MYSQL_DATABASE: kioskdb 
+      MYSQL_USER: kiosk_admin 
+      MYSQL_PASSWORD: kiosk123 
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    environment:
+      PMA_HOST: mysql
+      PMA_PORT: 3306
+    ports:
+      - "8080:80"
+    depends_on:
+      - mysql
+
+volumes:
+  mysql_data:
