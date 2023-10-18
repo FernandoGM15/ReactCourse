@@ -2,11 +2,11 @@ import "./globals.css";
 import "react-toastify/ReactToastify.min.css";
 import type { Metadata } from "next";
 import { Quicksand } from "next/font/google";
-import Sidebar from "./components/Sidebar";
-import { KioskProvider } from "./context/KioskProvider";
-import ModalProduct from "./components/ModalProduct";
+import Sidebar from "@/components/Sidebar";
+import { KioskProvider } from "@/context/KioskProvider";
+import ModalProduct from "@/components/ModalProduct";
 import { ToastContainer } from "react-toastify";
-import Steps from "./components/Steps";
+import Steps from "@/components/Steps";
 const quicksand = Quicksand({ subsets: ["latin"] });
 
 export const metadata: Metadata = {

@@ -1,4 +1,4 @@
-import { OrderI } from "@/app/interfaces/order.interfaces";
+import { OrderI } from "@/interfaces/order.interfaces";
 import { PrismaClient } from "@prisma/client";
 import { NextRequest, NextResponse } from "next/server";
 

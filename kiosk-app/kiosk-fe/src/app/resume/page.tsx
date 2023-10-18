@@ -1,7 +1,7 @@
 "use client";
 
-import ProductResume from "../components/ProductsResume";
-import { useKiosk } from "../hooks/useKiosk";
+import ProductResume from "@/components/ProductsResume";
+import { useKiosk } from "@/hooks/useKiosk";
 
 const ResumePage = () => {
   const { order } = useKiosk();

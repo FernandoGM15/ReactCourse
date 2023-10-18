@@ -7,7 +7,7 @@ import {
   SetStateAction,
   FormEvent,
 } from "react";
-import { type CategoryI } from "@/app/interfaces/category.interfaces";
+import { type CategoryI } from "@/interfaces/category.interfaces";
 import { type ProductI } from "../interfaces/product.interfaces";
 import { AddOrder } from "../interfaces/order.interfaces";
 import axios from "axios";
