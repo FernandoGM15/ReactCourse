@@ -9,7 +9,7 @@ const ProductsResume = ({ order }: { order: AddOrder[] }) => {
   if (order.length === 0)
     return (
       <p className="text-center text-2xl">
-        There aren't elements in your order
+        There are not elements in your order
       </p>
     );
 

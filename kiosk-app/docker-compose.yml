@@ -4,7 +4,7 @@ services:
   mysql:
     image: mysql:latest
     environment:
-      MYSQL_ROOT_PASSWORD: Lufegamo_15 
+      MYSQL_ROOT_PASSWORD: Pass.Pass
       MYSQL_DATABASE: kioskdb 
       MYSQL_USER: kiosk_admin 
       MYSQL_PASSWORD: kiosk123 
