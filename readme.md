@@ -24,4 +24,4 @@ This is a repository with all the projects assigned by the course [React the com
 
 10. [Cocktails searcher](https://github.com/FernandoGM15/ReactCourse/tree/main/drink-searcher) - [demo](https://6512fdd996920002d0c9e768--deluxe-brigadeiros-f40324.netlify.app/)
 
-10. [Food Kiosk app](https://github.com/FernandoGM15/ReactCourse/tree/main/kiosk-app/) - [demo](https://6512fdd996920002d0c9e768--deluxe-brigadeiros-f40324.netlify.app/)
+10. [Food Kiosk app](https://github.com/FernandoGM15/ReactCourse/tree/main/kiosk-app/kiosk-fe)
