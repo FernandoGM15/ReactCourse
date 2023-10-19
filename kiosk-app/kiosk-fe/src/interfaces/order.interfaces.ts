@@ -1,11 +1,15 @@
-import { ProductI } from "./product.interfaces";
-
 export type OrderI = {
   id: number;
   name: string;
   date: string;
   total: number;
-  order: { [key: string]: string };
+  order: {
+    id: number;
+    name: string;
+    image: string;
+    price: number;
+    quantity: number;
+  }[];
 };
 
 export type AddOrder = {

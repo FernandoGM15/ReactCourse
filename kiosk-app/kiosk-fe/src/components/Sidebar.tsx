@@ -8,7 +8,7 @@ const Sidebar = () => {
   const { categories } = useContext(KioskContext);
   return (
     <>
-      <Image width={300} height={100} src="img/logo.svg" alt="logo" priority />
+      <Image width={300} height={100} src="/img/logo.svg" alt="logo" priority />
       <nav className="mt-10">
         {categories.map((category) => (
           <Category key={category.name} category={category} />

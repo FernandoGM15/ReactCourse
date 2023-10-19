@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Food Kiosk App
 
-## Getting Started
+## Topics
 
-First, run the development server:
+- ContextApi
+- Provider
+- Tailwind
+- Axios
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Prisma
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Prisma is an ORM for node.js, It provides a powerful and flexible way to interact with relational databases, while still maintaining type safety and performance.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## useSWR
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Is a hook created by Vercel, especially designed to get data from API's.
+- SWR comes from State While Revalidate that is a browser's strategy, but useSWR is the hook that you can use in React to consult and get info form API.
+- SWR returns the data in cache (stale), after that sends a request to API (revalidate) and finally gets the new info.
 
-## Learn More
+### What useSWR includes?
 
-To learn more about Next.js, take a look at the following resources:
+- It can be used in projects with next, vite, etc
+- Can include real time consults, pagination.
+- Is an excellent way to get the app info updated and with a goo performance.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

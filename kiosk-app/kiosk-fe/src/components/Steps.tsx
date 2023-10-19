@@ -1,12 +1,11 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useKiosk } from "../hooks/useKiosk";
 
 const STEPS: { step: number; name: string; url: string }[] = [
-  { step: 1, name: "Menu", url: "/" },
-  { step: 2, name: "Resume", url: "/resume" },
-  { step: 3, name: "Payment", url: "/payment" },
+  { step: 1, name: "Menu", url: "/home" },
+  { step: 2, name: "Resume", url: "/home/resume" },
+  { step: 3, name: "Payment", url: "/home/payment" },
 ];
 
 const Steps = () => {
@@ -14,11 +13,11 @@ const Steps = () => {
 
   const progressCalc = () => {
     switch (pathname) {
-      case "/":
+      case "/home":
         return 2;
-      case "/resume":
+      case "/home/resume":
         return 50;
-      case "/payment":
+      case "/home/payment":
         return 100;
     }
   };

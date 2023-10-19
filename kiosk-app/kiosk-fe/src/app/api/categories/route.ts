@@ -10,7 +10,9 @@ export const GET = async () => {
     return NextResponse.json(category);
   } catch (error) {
     if (error instanceof Error) {
-      error.message;
+      return NextResponse.json({
+        message: " An error ocurred when trying to get the order",
+      });
     }
   }
 };

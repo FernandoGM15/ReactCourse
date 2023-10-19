@@ -2,7 +2,7 @@
 
 import {  useCallback, useEffect } from "react";
 import { useKiosk } from "@/hooks/useKiosk";
-import { currencyFormat } from "../../utils/currency";
+import { currencyFormat } from "../../../utils/currency";
 
 const TotalPage = () => {
   const { order, name, setName, postOrder, total } = useKiosk();

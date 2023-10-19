@@ -66,7 +66,7 @@ export const KioskProvider = ({ children }: { children: React.ReactNode }) => {
   const handleSelectCategory = (id: number) => {
     const selectedCategory = categories.find((category) => category.id === id);
     selectedCategory && setCurrentCategory(selectedCategory);
-    router.push("/");
+    router.push("/home");
   };
 
   const handleSetProduct = (product: ProductI) => {
@@ -119,7 +119,7 @@ export const KioskProvider = ({ children }: { children: React.ReactNode }) => {
       setTotal(0);
       toast.success("The order was sent successfully");
       setTimeout(() => {
-        router.push("/");
+        router.push("/home");
       }, 2000);
     } catch (error) {
       console.log(error);

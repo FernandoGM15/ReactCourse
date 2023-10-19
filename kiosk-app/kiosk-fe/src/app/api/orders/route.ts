@@ -4,8 +4,13 @@ import { NextRequest, NextResponse } from "next/server";
 
 const prisma = new PrismaClient();
 
-export const GET = (req: NextRequest) => {
-  return NextResponse.json({ hello: "world" });
+export const GET = async () => {
+  try {
+    const orders = await prisma.order.findMany({ where: { state: false } });
+    return NextResponse.json(orders);
+  } catch (error) {
+    return NextResponse.json({ message: "An error ocurred" });
+  }
 };
 
 export const POST = async (req: NextRequest) => {
